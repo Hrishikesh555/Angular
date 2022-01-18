@@ -1,8 +1,0 @@
-
-<button class="btn btn-primary" (click)="showdisplay()">Press</button>
-<p *ngIf="Secret">Pasword=helo</p>
-<div *ngFor="let arrItem of Arr; let i =index" 
-[ngStyle]="{backgroundColor:i >=5 ? 'red':'transparent'}"
-[ngClass]="{'white-text':i >= 5}"
->{{arrItem}}</div>
-
